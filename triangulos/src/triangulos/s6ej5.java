@@ -14,10 +14,20 @@ import java.util.Scanner;
       int i = 1;
       for (fil=1; fil<=n; fil++){
         for (ast=1; ast<=fil; ast++){
-          System.out.print (i + " ");
-          i++;
+        	if (i<10)
+        		System.out.print(i+"    ");
+        	else
+        		if (i<100)
+        			System.out.print(i+"   ");
+        		else
+            		if (i<1000)
+            			System.out.print(i+"  ");
+            		else
+            			System.out.print(i+" ");
+           i++;
         }
-        System.out.println ("");
+        System.out.println ();
       }
     }
   }
+  

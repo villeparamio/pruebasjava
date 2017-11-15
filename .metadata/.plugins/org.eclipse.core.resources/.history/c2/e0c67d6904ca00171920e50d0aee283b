@@ -1,0 +1,26 @@
+package triangulos;
+
+import java.util.Scanner;
+
+public class ej3Examen {
+	
+	public static long cuadradoSumas (int n){
+		int cont = n;
+		for (int i=1;cont>i){
+			
+		}
+		return n;
+    }
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+	      int n;
+	      System.out.println ("Teclee un número: ");
+	      n = in.nextInt();
+	      System.out.println(n);
+	      
+
+	}
+	
+
+}

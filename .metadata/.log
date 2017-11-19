@@ -512,18 +512,31 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2270)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:453)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+<<<<<<< HEAD
 !SESSION 2017-11-19 19:25:26.348 -----------------------------------------------
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_151
+=======
+!SESSION 2017-11-16 12:21:09.321 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 19:47:49.987
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 12:26:25.569
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -537,10 +550,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 19:52:50.213
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 12:43:23.908
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -554,10 +574,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:00:53.883
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 12:58:02.415
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -571,10 +598,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:08:32.739
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 13:19:04.408
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -588,10 +622,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:19:55.414
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 13:31:49.473
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -605,10 +646,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:25:33.208
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 13:38:06.854
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -622,10 +670,17 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:32:39.777
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 13:43:41.059
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -639,6 +694,7 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 4 568 2017-11-19 20:39:17.702
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
@@ -755,6 +811,12 @@ java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plu
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/paramint/ej_java/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+=======
+!ENTRY org.eclipse.core.resources 4 568 2017-11-16 13:49:06.739
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: /home/davpara/ejercicios/pruebasjava/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No existe el archivo o el directorio)
+>>>>>>> 072fe6c70c325e1e6d92e1afb4865727ae83522a
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)

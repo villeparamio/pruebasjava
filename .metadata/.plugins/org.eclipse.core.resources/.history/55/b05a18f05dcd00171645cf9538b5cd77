@@ -1,0 +1,36 @@
+package sesionEvaluacionV1;
+
+import java.util.Scanner;
+
+public class enunciado1 {
+	
+	public static long par (long n){
+		n = n / 2;
+		return n;
+    }
+	
+	public static long impar (long n){
+		n = n*3+1;
+		return n;
+    }
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+	      long n;
+	      System.out.println ("Teclee un número: ");
+	      n = in.nextInt();
+	      long longitud = 0;
+	      while (n>1) {
+	    	  if (n%2 == 0){
+	    		  n = par(n);
+	    	  }else {
+	    		  n = impar(n);
+	    	  }
+	    	  longitud ++;	    	 
+	      }
+	      longitud = longitid + 1;
+	      System.out.println(longitud);
+
+	}
+
+}

@@ -28,7 +28,6 @@ public class enunciado2 {
 	public static void main(String[] args) {
 		
 		// Recogemos los valores por pantalla
-		
 		Scanner in = new Scanner (System.in);
 		long n1;
 		long n2;

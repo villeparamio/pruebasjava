@@ -46,7 +46,7 @@ public class enunciado6 {
 	System.out.print("Introduzca un número entero mayor que 1: ");
 	numero=keyboard.nextLong();
 	}
-	while (numero<=1||numero>43);   //Para evitar los números menores iguales que 1 o más grandes que un long
+	while (numero2<=1||numero<=1);   //Para evitar los números menores iguales que 1 o más grandes que un long
 	
 	long y=1;
 	long x = numero2;

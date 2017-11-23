@@ -1,4 +1,4 @@
-package sesionEvaluacionV1;
+package evaluacion;
 
 import java.util.Scanner;
 

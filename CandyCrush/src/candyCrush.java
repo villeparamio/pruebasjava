@@ -1,8 +1,10 @@
 import java.awt.Point;
-import java.util.Random;
 import java.util.Scanner;
 
 public class candyCrush {
+	
+	// Constante que indica el tamaño del tablero
+	static final int tamañoTablero = 9;
 
 	// Muestra el menú del juegp
 	public static void menu (){
@@ -32,10 +34,8 @@ public class candyCrush {
 	
 	// Función que genera el tablero de juego de acuerdo a las especificaciones
 	public static int[][] generarTablero (int n){
-		int tamañoTableroFilas = 11;
-		int tamañoTableroColumnas = 11;
 		
-		int tablero[][] = new int[tamañoTableroFilas][tamañoTableroColumnas];
+		int tablero[][] = new int[tamañoTablero+2][tamañoTablero+2];
     
         for(int i=1; i<tablero.length-1; i++) {
             for(int j=1; j<tablero[0].length-1; j++) {  // recorro la matriz
@@ -52,7 +52,7 @@ public class candyCrush {
     	System.out.println("       1  2  3  4  5  6  7  8  9");
     	
 		for (int i=0;i<nfilas;i++){
-			if (i < 10 && i > 0){
+			if (i <= tamañoTablero && i > 0){
 				System.out.print(" "+ i +" ");
 			} else {
 				System.out.print("   ");
@@ -82,6 +82,32 @@ public class candyCrush {
 		
     }
 	
+	public static void comprobarTablero (int tablero[][]){
+		int nfilas = tablero.length, ncolumnas = tablero[0].length, contador = 0, anterior=0;
+		for (int j=1;j<ncolumnas-1;j++){
+			for (int i=1;i<nfilas-1;i++){
+				System.out.println(tablero[i][j]);
+	        }
+        }
+	}
+	
+	public static int[][] intercambiar(int tablero[][]){
+		Point punto1, punto2;
+		do {
+			System.out.println("Introduzca un intercambio válido");
+			punto1 = new Point(primerPunto());
+			punto2 = new Point(segundoPunto());
+		} while (((punto1.x)+1 != punto2.x && (punto1.x)-1 != punto2.x && punto1.x != punto2.x)||
+				 ((punto1.y)+1 != punto2.y && (punto1.y)-1 != punto2.y && punto1.y != punto2.y));
+		int c1, c2;
+		c1 = tablero[punto1.x][punto1.y];
+		c2 = tablero[punto2.x][punto2.y];
+		tablero[punto2.x][punto2.y] = c1;
+		tablero[punto1.x][punto1.y] = c2;
+		mostrarTablero(tablero);
+		return tablero;
+	}
+	
 	// Función que recoge el primer punto por pantalla
 	public static Point primerPunto () {
 		Scanner in = new Scanner(System.in);
@@ -90,7 +116,7 @@ public class candyCrush {
 			System.out.println("introduzca 2 números para el primer punto");
 			primero = in.nextInt();
 			segundo = in.nextInt();	
-		} while (primero < 1 || primero > 10 || segundo < 1 || segundo > 10);
+		} while (primero < 1 || primero > tamañoTablero+1 || segundo < 1 || segundo > tamañoTablero+1);
 		Point punto = new Point (primero, segundo);
 		return punto;
 	}
@@ -103,7 +129,7 @@ public class candyCrush {
 			System.out.println("introduzca 2 números para el segundo punto");
 			tercero = in.nextInt();
 			cuarto = in.nextInt();
-		} while (tercero < 1 || tercero > 10 || cuarto < 1 || cuarto > 10);
+		} while (tercero < 1 || tercero > tamañoTablero+1 || cuarto < 1 || cuarto > tamañoTablero+1);
 		Point punto = new Point (tercero, cuarto);
 		return punto;
 	}
@@ -112,7 +138,7 @@ public class candyCrush {
 
 		// Declaracion de variables
 		Scanner in = new Scanner(System.in);
-		int nMenu, colores;
+		int nMenu, colores, puntos, movimientos = 0;
 
 
 		do {
@@ -128,6 +154,7 @@ public class candyCrush {
 					colores = 3;
 					int[][] tablero1 = generarTablero(colores);
 					mostrarTablero(tablero1);
+					tablero1 = intercambiar(tablero1);
 					break;
 				case 2:
 					colores = 4;
@@ -142,6 +169,7 @@ public class candyCrush {
 				case 4:
 					int[][] tablero4 = tableroFijo();
 					mostrarTablero(tablero4);
+					comprobarTablero(tablero4);
 					Point punto1 = new Point(primerPunto());
 					Point punto2 = new Point(segundoPunto());
 					System.out.println("Primer punto es: "+ punto1.x + " " + punto1.y);
